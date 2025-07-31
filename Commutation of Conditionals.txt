@@ -1,0 +1,50 @@
+I'll perform the comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement against all fallacies in the JSON file. The statement follows the logical pattern: "If P then Q. Therefore, if Q then P."
+
+After systematically checking each fallacy's steps against the statement, I found one clear match:
+
+**Affirming the Consequent:**
+- Step 1: "Is there a conditional statement (If P then Q)?" → YES (If I have herpes, then I have a strange rash)
+- Step 2: "Is the consequent (Q) stated as true?" → YES (I have a strange rash)
+- Step 3: "Does the reasoning flow from Q being true to P being true?" → YES (concludes herpes from rash)
+
+Ground truth: ["yes", "yes", "yes"] - PERFECT MATCH
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From the Prolog file, I found that "Affirming the Consequent" is often confused with:
+- Commutation of Conditionals
+- Prejudicial Language
+
+**Commutation of Conditionals Analysis:**
+- Step 1: "Is a statement being made?" → YES
+- Step 2: "Does the statement contain conditional relationships such as an (if P then Q) format?" → YES
+- Step 3: "Have the antecedent and consequent been switched?" → YES
+- Step 4: "Is the switched antecedent-consequent assumed to be true?" → YES
+- Step 5: "Is the switched antecedent-consequent (if Q then P) pair logically correct?" → NO
+
+Ground truth: ["yes", "yes", "yes", "yes", "no"] - PERFECT MATCH
+
+**Prejudicial Language Analysis:**
+- Step 1: "Does the statement make a claim or proposition?" → YES
+- Step 2: "Does the claim or proposition use loaded or emotive terms?" → NO
+- This fails immediately as the statement uses neutral medical terminology.
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+Both **Affirming the Consequent** and **Commutation of Conditionals** match their ground truths perfectly. However, the key distinction lies in their focus:
+
+**Affirming the Consequent** focuses on the logical error of reasoning backward from consequence to antecedent within a single conditional statement.
+
+**Commutation of Conditionals** focuses on the structural error of switching the positions of antecedent and consequent to create an invalid new conditional.
+
+The statement "If I have herpes, then I have a strange rash. Therefore, if I have a strange rash, then I have herpes" demonstrates the classic **Affirming the Consequent** pattern. The person starts with a valid conditional (P→Q), observes the consequent (Q), and incorrectly concludes the antecedent (P) must be true.
+
+While the statement does involve switching antecedent and consequent (making it technically also Commutation of Conditionals), the primary logical error being demonstrated is the invalid inference from consequent to antecedent, which is the defining characteristic of Affirming the Consequent.
+
+**Final Classification: Affirming the Consequent**
+
+This represents the fundamental logical fallacy of assuming that if P implies Q, then Q must imply P - a common error in conditional reasoning that ignores the possibility of alternative causes for the same effect.
