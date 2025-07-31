@@ -1,0 +1,94 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement against all fallacies in the JSON file. The statement is: "I heard that the Catholic Church was involved in a sex scandal cover-up. Therefore, my 102-year-old Catholic neighbor, who frequently attends Church, is guilty as well!"
+
+After systematically checking each fallacy's steps against ground truths, I found several potential matches. Let me highlight the strongest candidates:
+
+**Ad Hominem Guilt by Association:**
+- Step 1: Are there two or more people/groups being discussed? **YES** (Catholic Church and neighbor)
+- Step 2: Does negative judgment of the associated person/group already exist? **YES** (sex scandal cover-up)
+- Step 3: Is one person/group being judged negatively based on association? **YES** (neighbor judged based on Church association)
+- Step 4: Does argument dismiss/attack first person solely because of association? **YES** (neighbor declared guilty solely due to Church membership)
+- Step 5: Is association irrelevant to actual argument/claim? **YES** (neighbor's church attendance irrelevant to scandal)
+- Step 6: Does reasoning follow pattern 'X associates with Y, Y is bad, therefore X is bad'? **YES**
+
+All steps match ground truth perfectly.
+
+**Hasty Generalization:**
+- Step 1: Is there a sample being used as evidence? **YES** (Catholic Church as sample)
+- Step 2: Is sample size unreasonably small? **YES** (one organization)
+- Step 3: Is sample unrepresentative? **YES** (Church hierarchy vs. individual members)
+- Step 4: Is broad conclusion drawn? **YES** (guilt applied to neighbor)
+- Step 5: Applied to larger population? **YES** (from Church to individual member)
+- Step 6: Ignores relevant statistical data? **YES**
+
+All steps match ground truth.
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From the Prolog file, I found these fallacies often confused with Ad Hominem Guilt by Association:
+- argument_by_emotive_language
+- extended_analogy
+
+And these often confused with Hasty Generalization:
+- alleged_certainty
+- appeal_to_closure
+- appeal_to_false_authority
+- biased_sample_fallacy
+- ecological_fallacy
+- fantasy_projection
+- false_effect
+- misleading_vividness
+- package_deal_fallacy
+- post_designation
+- subverted_support
+- tokenism
+
+After analyzing each related fallacy, I found additional strong matches:
+
+**Ecological Fallacy:**
+- Step 1: Statistical claim about group? **YES** (Church involved in scandal)
+- Step 2: Individual from group discussed? **YES** (neighbor)
+- Step 3: Concludes individual has same characteristic based solely on group? **YES**
+- Step 4: Substantial evidence about individual? **NO**
+
+Perfect match with ground truth.
+
+**Stereotyping the Fallacy:**
+- Step 1: Broad generalization about group? **YES** (Catholics are guilty)
+- Step 2: Based on characterization not facts? **YES**
+- Step 3: Specific individual categorized as part of group? **YES** (neighbor as Catholic)
+- Step 4: Assigns generalized property based solely on membership? **YES**
+
+Perfect match with ground truth.
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+After comprehensive analysis, I have four fallacies with perfect ground truth matches:
+1. **Ad Hominem Guilt by Association**
+2. **Hasty Generalization** 
+3. **Ecological Fallacy**
+4. **Stereotyping the Fallacy**
+
+**Final Selection: Ad Hominem Guilt by Association**
+
+**Reasoning:**
+
+This fallacy best captures the core logical error in the statement. Here's why:
+
+1. **Primary Mechanism**: The statement's main logical flaw is judging the neighbor negatively based solely on association with the Catholic Church, which is the defining characteristic of guilt by association.
+
+2. **Pattern Match**: The statement follows the exact pattern "X associates with Y, Y is bad, therefore X is bad" - neighbor associates with Church, Church is bad, therefore neighbor is bad.
+
+3. **Irrelevant Association**: The neighbor's church attendance and age are completely irrelevant to any wrongdoing by Church hierarchy, yet this irrelevant association is used as the sole basis for judgment.
+
+4. **Distinction from Other Fallacies**: 
+   - While this could be hasty generalization, the focus isn't on sample size but on guilt transfer through association
+   - While this could be ecological fallacy, the emphasis isn't on statistical properties but on moral culpability
+   - While this involves stereotyping, the core error is the association-based guilt assignment
+
+The statement demonstrates classic guilt by association reasoning where an individual is condemned not for their own actions, but purely because of their membership in or association with a group that has committed wrongdoing.
+
+**Answer: Ad Hominem Guilt by Association**
