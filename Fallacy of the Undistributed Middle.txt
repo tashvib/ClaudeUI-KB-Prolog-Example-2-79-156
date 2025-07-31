@@ -1,0 +1,72 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me systematically analyze this statement against all fallacies in the JSON file. The statement is: "All ghosts are imaginary. All unicorns are imaginary. Therefore, all ghosts are unicorns."
+
+After analyzing all fallacies in the instruction set, I find several potential matches, but the strongest is:
+
+**Fallacy of the Undistributed Middle**:
+- Step 1: "Is there a categorical syllogism with two premises and one conclusion?" → YES
+- Step 2: "Do both premises link different categories (A and B) to the same middle term (C), and the conclusion links A and B directly?" → YES (ghosts and unicorns both linked to "imaginary," conclusion links ghosts to unicorns)
+- Step 3: "Is there any additional valid reasoning or evidence that justifies the conclusion?" → NO
+
+Ground truth: ["yes", "yes", "no"] - **PERFECT MATCH**
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From the Prolog file, I find these fallacies often confused with "Fallacy of the Undistributed Middle":
+- circular_definition
+- fallacy_of_four_terms  
+- illicit_major
+- illicit_minor
+- negative_conclusion_from_affirmative_premises
+- unwarranted_contrast
+
+Let me analyze each:
+
+**Fallacy of Four Terms**:
+- Step 1: "Is the argument structured similarly to a categorical syllogism?" → YES
+- Step 2: "Are there more than 3 terms present?" → NO (only 3 terms: ghosts, unicorns, imaginary)
+- Step 3: "Does the middle term correctly connect the other terms?" → NO
+Ground truth: ["yes", "yes", "no"] - Does not match (fails step 2)
+
+**Illicit Major**:
+- Step 1: "Is the argument a categorical syllogism?" → YES
+- Step 2: "Is the major term distributed in the conclusion?" → YES
+- Step 3: "Is the major term distributed in the major premise?" → NO
+Ground truth: ["yes", "yes", "no"] - **PERFECT MATCH**
+
+**Illicit Minor**:
+- Step 1: "Is the argument a categorical syllogism?" → YES
+- Step 2: "Is the minor term distributed in the conclusion?" → YES  
+- Step 3: "Is the minor term distributed in the minor premise?" → NO
+Ground truth: ["yes", "yes", "no"] - **PERFECT MATCH**
+
+The other related fallacies do not match the pattern of this argument.
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+I have three fallacies that perfectly match their ground truths:
+1. Fallacy of the Undistributed Middle
+2. Illicit Major
+3. Illicit Minor
+
+**Final Selection: Fallacy of the Undistributed Middle**
+
+**Comprehensive Reasoning:**
+
+While all three fallacies technically apply to this invalid syllogism, the **Fallacy of the Undistributed Middle** is the most fundamental and precise diagnosis because:
+
+1. **Primary Logical Error**: The core problem is that the middle term "imaginary" is never distributed (never refers to ALL imaginary things). Both premises only tell us that ghosts and unicorns are subsets of imaginary things, not that they exhaust the category.
+
+2. **Structural Analysis**: This is a classic undistributed middle pattern:
+   - All A are C (All ghosts are imaginary)
+   - All B are C (All unicorns are imaginary)  
+   - Therefore, All A are B (Therefore, all ghosts are unicorns)
+
+3. **Hierarchical Relationship**: While Illicit Major and Illicit Minor are also present, they are consequences of the undistributed middle. The failure to properly distribute the middle term causes the major and minor terms to be improperly distributed in the conclusion.
+
+4. **Pedagogical Clarity**: This is a textbook example used to teach the undistributed middle fallacy - the middle term "imaginary" never covers its entire extension, making the conclusion invalid.
+
+The statement commits the **Fallacy of the Undistributed Middle** by assuming that because two different categories share a common property, they must be equivalent to each other.
