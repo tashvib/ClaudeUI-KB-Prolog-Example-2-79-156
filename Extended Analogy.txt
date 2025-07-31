@@ -1,0 +1,90 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement systematically through the fallacy instruction sets in final_instructions.json.
+
+**Initial Assessment**: The statement argues that because science was wrong about atoms being the smallest particles, it might be wrong about other scientific findings that contradict literal Biblical interpretation.
+
+Going through key fallacies from the instruction set:
+
+**Hasty Generalization Analysis**:
+- Is there a sample being used as evidence? **YES** (one example of scientific revision)
+- Is the sample size unreasonably small relative to the total population? **YES** (single example vs. all scientific knowledge)
+- Is the sample unrepresentative of the broader population? **YES** (normal scientific progress vs. fundamental errors)
+- Is a broad conclusion being drawn from this sample? **YES** (all contradictory science might be wrong)
+- Is the conclusion being applied to a much larger population or group? **YES** (extended to multiple scientific fields)
+- Does the generalization ignore relevant statistical data or larger patterns? **YES** (ignores overall reliability of science)
+
+**Ground truth match**: [yes, yes, yes, yes, yes, yes] - **PERFECT MATCH**
+
+**Weak Analogy Analysis**:
+- Is an analogy being used to support an argument? **YES** (atom discovery → other scientific findings)
+- Are two things being compared? **YES** (past atomic theory vs. current theories)
+- Is a property attributed to Y? **YES** (being wrong)
+- Does the argument conclude X also has this property based on analogy? **YES**
+- Do differences outweigh similarities? **YES** (normal revision vs. fundamental error)
+- Are dissimilarities significant enough to make analogy ineffective? **YES**
+
+**Ground truth match**: [yes, yes, yes, yes, yes, yes] - **PERFECT MATCH**
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+Consulting prolog.txt for fallacies often confused with Hasty Generalization and Weak Analogy:
+
+**Often confused with Hasty Generalization**:
+- alleged_certainty
+- biased_sample_fallacy
+- ecological_fallacy
+- false_effect
+- fantasy_projection
+- misleading_vividness
+- package_deal_fallacy
+- post_designation
+- subverted_support
+- tokenism
+
+**Often confused with Weak Analogy**:
+- non_sequitur
+- false_equivalence
+- tokenism
+
+**Key Additional Analysis - False Equivalence**:
+- Does the argument compare two completely opposing things? **YES** (routine scientific progress vs. fundamental errors)
+- Does the comparison claim equivalence? **YES** (treats both as "being wrong")
+- Do things share only minor characteristics? **YES** (both involve scientific revision)
+- Are shared characteristics minor compared to differences? **YES** (magnitude and nature differ greatly)
+- Have important distinguishing factors been ignored? **YES** (ignores nature of scientific method)
+- Is the equivalence logically invalid due to magnitude of differences? **YES**
+
+**Ground truth match**: [yes, yes, yes, yes, yes, yes] - **PERFECT MATCH**
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+**Analysis Results Summary**:
+- **Hasty Generalization**: Perfect match (6/6)
+- **Weak Analogy**: Perfect match (6/6)  
+- **False Equivalence**: Perfect match (6/6)
+
+**Final Selection: Hasty Generalization**
+
+**Comprehensive Reasoning**:
+
+While this statement exhibits characteristics of multiple fallacies, **Hasty Generalization** is the primary logical error because:
+
+1. **Core Structure**: The argument's foundation is drawing a sweeping conclusion about scientific reliability from a single, inadequate example - this is the textbook definition of hasty generalization.
+
+2. **Sample Problems**: 
+   - Uses only one example (atomic theory revision)
+   - Sample is unrepresentative (normal scientific progress ≠ fundamental error)
+   - Extrapolates to vast domains (cosmology, geology, biology)
+
+3. **Logical Flow**: The reasoning explicitly follows the hasty generalization pattern: "Science was wrong about X, therefore science might be wrong about Y, Z, and everything else that contradicts my beliefs."
+
+4. **Primary vs. Secondary**: While weak analogy and false equivalence are present, they serve the hasty generalization. The analogy between atomic theory and other scientific findings is weak precisely because it's being used to support an overgeneralized conclusion.
+
+5. **Intent and Impact**: The statement's clear purpose is to cast doubt on scientific consensus by generalizing from limited evidence - the hallmark of hasty generalization used to support predetermined conclusions.
+
+**Classification: Hasty Generalization**
+
+The statement commits hasty generalization by using one example of scientific theory revision to conclude that multiple well-established scientific findings might be wrong, without considering the vast differences in evidence quality, methodological rigor, and scientific consensus between the cases.
