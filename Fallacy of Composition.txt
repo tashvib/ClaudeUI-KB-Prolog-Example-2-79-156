@@ -1,0 +1,53 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement systematically through the fallacy instruction sets. The statement follows a clear logical structure: "Hydrogen is not wet. Oxygen is not wet. Therefore, water (H2O) is not wet."
+
+After analyzing through multiple fallacy instruction sets, I found a strong match with **Fallacy of Composition**:
+
+**Fallacy of Composition Analysis:**
+- Step 1: "Is a part-to-whole relationship being discussed?" → **YES** (hydrogen and oxygen are components of water)
+- Step 2: "Is a property or characteristic attributed to a part/component?" → **YES** (the property "not wet" is attributed to hydrogen and oxygen)
+- Step 3: "Does the conclusion claim the whole possesses the same property as the part/component?" → **YES** (concludes water is not wet based on its components)
+- Step 4: "Does the property of the part/component necessarily transfer from the part to the whole?" → **NO** (wetness doesn't necessarily transfer this way)
+- Step 5: "Is there any additional valid reasoning or evidence that justifies the conclusion?" → **NO** (only the component properties are cited)
+
+Ground truth: ["yes", "yes", "yes", "no", "no"]
+Operations: ["and", "and", "and", "and"]
+**Result: PERFECT MATCH**
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From the Prolog file, I found these fallacies often confused with Fallacy of Composition:
+- conjunction_fallacy
+- quantifier_shift_fallacy  
+- overwhelming_exception
+- style_over_substance
+
+I analyzed each of these related fallacies:
+
+**Conjunction Fallacy**: No match - doesn't involve probability estimates
+**Quantifier Shift Fallacy**: No match - doesn't involve quantifier reversal
+**Overwhelming Exception**: No match - no general claim with exceptions
+**Style Over Substance**: No match - uses logical structure, not stylistic appeal
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+**Selected Fallacy: Fallacy of Composition**
+
+**Complete Reasoning:**
+
+1. **Perfect Ground Truth Match**: The Fallacy of Composition analysis yielded a perfect 5/5 match with the expected ground truth pattern, while no other fallacy achieved this level of accuracy.
+
+2. **Logical Structure Alignment**: The statement exemplifies the classic composition fallacy pattern where properties of individual components (hydrogen and oxygen being "not wet") are incorrectly assumed to transfer to the compound they form (water).
+
+3. **Chemical Reality vs. Logical Error**: The argument demonstrates a fundamental misunderstanding of emergent properties in chemistry. Water's wetness is an emergent property that arises from the molecular structure and behavior of H2O, not from the individual properties of its constituent atoms.
+
+4. **Clear Part-to-Whole Reasoning**: The argument explicitly moves from properties of parts (individual elements) to conclusions about the whole (the compound), which is the defining characteristic of composition fallacies.
+
+5. **Absence of Valid Bridging Logic**: The argument provides no scientific or logical explanation for why atomic properties should determine molecular properties, relying solely on the invalid assumption that component properties necessarily transfer to the whole.
+
+**Final Answer: Fallacy of Composition**
+
+This fallacy occurs when someone incorrectly assumes that what is true of the parts must also be true of the whole, which is exactly what happens when concluding that water cannot be wet simply because its constituent atoms are not wet.
