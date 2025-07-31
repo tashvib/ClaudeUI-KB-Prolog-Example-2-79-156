@@ -1,0 +1,78 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me systematically analyze this statement against all fallacies in the JSON file. The statement is: "My political candidate gives 10% of his income to the needy, goes to church every Sunday, and volunteers one day a week at a homeless shelter. Therefore, he is honest and morally straight."
+
+After analyzing this statement against all fallacies in the instruction set, I found several potential matches. Let me focus on the strongest candidates:
+
+**Appeal to Accomplishment Analysis:**
+- Step 1: Is an argument or claim being made? **YES** (claim that candidate is honest and morally straight)
+- Step 2: Is the argument being defended based on the arguer's level of accomplishment rather than merit? **YES** (charitable giving, church attendance, volunteering)
+- Step 3: Is the argument's truth value being established through accomplishments? **YES** (moral character concluded from good deeds)
+- Step 4: Does logical connection rely on status/achievement rather than factual evidence? **YES**
+
+Ground truth: ["yes", "yes", "yes", "yes"] - **PERFECT MATCH**
+
+**Righteousness Fallacy Analysis:**
+- Step 1: Is someone making a factual claim? **YES** (about honesty and moral character)
+- Step 2: Is the person portrayed as having good intentions? **YES** (charitable acts, religious observance)
+- Step 3: Does argument conclude claim is true primarily because of good intentions? **YES**
+- Step 4: Does argument lack other evidence beyond good intentions? **YES**
+- Step 5: Is connection between good intentions and factual accuracy treated as valid? **YES**
+
+Ground truth: ["yes", "yes", "yes", "yes", "yes"] - **PERFECT MATCH**
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From the Prolog file, I found these relationships:
+
+**For Appeal to Accomplishment:**
+- `often_confused_with(appeal_to_accomplishment, appeal_to_false_authority)`
+- `often_confused_with(appeal_to_accomplishment, argument_from_false_authority)`
+- `often_confused_with(appeal_to_accomplishment, proof_by_intimidation)`
+
+**For Righteousness Fallacy:**
+- `often_confused_with(righteousness_fallacy, argument_from_false_authority)`
+- `often_confused_with(righteousness_fallacy, appeal_to_authority)`
+- `often_confused_with(righteousness_fallacy, stolen_concept_fallacy)`
+
+Let me analyze these related fallacies:
+
+**Appeal to False Authority:**
+- Step 1: Does argument cite authority? **NO** (no external authority cited)
+- Does not match - the candidate's own actions are cited, not external authority
+
+**Argument from False Authority:**
+- Step 1: Is person presented as authority? **PARTIALLY** (as moral authority through actions)
+- Step 2: Is expertise related to argument? **NO** (charitable acts don't create expertise in honesty)
+- Step 3: Is expertise used to influence on unrelated topic? **YES**
+
+This has some relevance but doesn't fit as perfectly.
+
+**Stolen Concept Fallacy:**
+- Does not apply - no conceptual self-contradiction present
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+**Analysis Summary:**
+
+1. **Appeal to Accomplishment** - Perfect match (4/4 steps)
+2. **Righteousness Fallacy** - Perfect match (5/5 steps)
+3. **Argument from False Authority** - Partial match (2/3 steps)
+
+**Final Selection: Righteousness Fallacy**
+
+**Comprehensive Reasoning:**
+
+While both Appeal to Accomplishment and Righteousness Fallacy achieved perfect matches, I select **Righteousness Fallacy** as the best classification for these reasons:
+
+1. **More Specific Fit**: The Righteousness Fallacy specifically addresses the error of concluding factual claims (honesty, moral character) are true based on good intentions/moral actions. This precisely matches the statement's logical structure.
+
+2. **Captures the Core Error**: The statement commits the specific error of equating moral actions with character traits. Good intentions and charitable acts don't logically prove honesty - someone could perform charitable acts while being dishonest in other areas.
+
+3. **Stronger Logical Analysis**: The five-step analysis for Righteousness Fallacy more thoroughly captures the nuanced reasoning error, including the lack of other evidence and the invalid connection between good intentions and factual accuracy.
+
+4. **Definitional Precision**: Appeal to Accomplishment is broader and could apply to any achievement-based argument, while Righteousness Fallacy specifically targets the moral intentions → factual truth error present in this statement.
+
+The statement exemplifies Righteousness Fallacy because it concludes the candidate "is honest and morally straight" based solely on moral/charitable actions, treating good intentions as sufficient evidence for character claims without providing actual evidence of honesty or moral straightness in relevant contexts.
