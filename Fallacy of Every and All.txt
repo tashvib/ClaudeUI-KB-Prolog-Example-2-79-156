@@ -1,0 +1,102 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement systematically through the fallacy instruction sets in final_instructions.json.
+
+**Statement Analysis:**
+- Premise 1: "Everyone loves someone"
+- Premise 2: "I am someone" 
+- Conclusion: "Therefore, everyone loves me!"
+
+This appears to involve quantifier logic, so let me focus on relevant fallacies:
+
+### Quantifier Shift Fallacy Analysis:
+1. **Does the statement contain two quantifiers (universal and existential)?** YES - "Everyone" (universal) and "someone" (existential)
+2. **Does the original statement have the form 'Every X has a related Y'?** YES - "Everyone loves someone" = "Every person loves some person"
+3. **Does the conclusion claim 'There is some Y related to every X'?** YES - The conclusion claims "everyone loves me" which means "there is some person (me) loved by every person"
+4. **Is the order of quantifiers reversed between premise and conclusion?** YES - From ∀x∃y to ∃y∀x
+5. **Does the reversal change the logical meaning inappropriately?** YES - Completely changes meaning
+6. **Does this reversal lead to an invalid inference?** YES
+
+**Ground Truth Match:** [yes, yes, yes, yes, yes, yes] - PERFECT MATCH
+
+### Fallacy of Every and All Analysis:
+1. **Does the statement contain universal quantifiers (all, every, none) and existential qualifiers (some, few, many)?** YES - "everyone" and "someone"
+2. **Is a claim made with quantifiers in a specific order?** YES - "Everyone loves someone"
+3. **Does the conclusion reverse the order of the quantifiers?** YES - From "everyone loves someone" to "everyone loves me"
+4. **Does the reversed order change the logical meaning?** YES
+5. **Is a single quantifier term used equivocally with different meanings?** YES - "someone" shifts from indefinite to specific ("me")
+
+**Ground Truth Match:** [yes, yes, yes, yes, yes] - PERFECT MATCH
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+Searching prolog.txt for related fallacies:
+
+**Quantifier Shift Fallacy is often confused with:**
+- fallacy_of_composition
+- existential_fallacy
+
+**Fallacy of Every and All is often confused with:**
+- fallacy_of_four_terms
+- begging_the_question
+
+Let me analyze these related fallacies:
+
+### Fallacy of Composition Analysis:
+1. **Is a part-to-whole relationship being discussed?** NO - This is about quantifier relationships, not parts/wholes
+2. **Is a property attributed to a part/component?** NO
+3. **Does the conclusion claim the whole possesses the same property?** NO
+4. **Does the property necessarily transfer from part to whole?** N/A
+5. **Is there additional valid reasoning?** NO
+
+**Ground Truth Match:** [yes, yes, yes, no, no] - Does NOT match (fails on first three steps)
+
+### Existential Fallacy Analysis:
+1. **Is this a categorical syllogism with two premises and one conclusion?** NO - This involves quantifier logic, not categorical syllogisms
+2. **Do both premises use universal qualifiers?** NO - "I am someone" is not universal
+3. **Does the conclusion use qualifiers like 'some', 'there are'?** NO
+4. **Does it assume existence from universals?** NO
+
+**Ground Truth Match:** [yes, yes, yes, yes] - Does NOT match
+
+### Fallacy of Four Terms Analysis:
+1. **Is the argument structured similarly to a categorical syllogism?** SOMEWHAT - but this is quantifier logic
+2. **Are there more than 3 terms present?** NO - "everyone," "someone," "me" (3 terms, but "someone" shifts meaning)
+3. **Does the middle term correctly connect other terms?** NO - "someone" shifts meaning
+
+**Ground Truth Match:** [yes, yes, no] - Partial match but weaker than primary candidates
+
+### Begging the Question Analysis:
+1. **Is a person making a claim or argument?** YES
+2. **Does the argument's validity depend on already accepting what it's trying to prove?** NO - The error is logical, not circular
+3. **Does the claim use circular reasoning?** NO
+
+**Ground Truth Match:** [yes, yes, yes] - Does NOT match
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+**Comparison of Results:**
+
+1. **Quantifier Shift Fallacy:** Perfect match (6/6) with ground truths
+2. **Fallacy of Every and All:** Perfect match (5/5) with ground truths  
+3. **All other fallacies:** Partial or no matches
+
+**Logical Analysis:**
+The statement commits a classic quantifier scope error:
+- Original: ∀x∃y(Loves(x,y)) - "For every person, there exists someone they love"
+- Invalid conclusion: ∃y∀x(Loves(x,y)) - "There exists someone whom everyone loves"
+
+This is the textbook definition of a Quantifier Shift Fallacy.
+
+**Final Selection: Quantifier Shift Fallacy**
+
+**Reasoning:**
+1. **Perfect Ground Truth Match:** The statement matches all 6 criteria for Quantifier Shift Fallacy
+2. **Classic Example:** This represents the canonical form of quantifier scope error
+3. **Logical Precision:** The error is specifically about the improper reversal of quantifier order (∀∃ → ∃∀)
+4. **Clear Distinction:** While "Fallacy of Every and All" also matches perfectly, "Quantifier Shift Fallacy" is the more precise technical term for this specific logical error in formal logic
+5. **Strongest Logical Foundation:** The analysis clearly identifies the invalid inference from "everyone loves someone" to "everyone loves me" as a quantifier scope fallacy
+
+The statement "Everyone loves someone. I am someone. Therefore, everyone loves me!" is a **Quantifier Shift Fallacy**.
