@@ -1,0 +1,60 @@
+I'll perform a comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement systematically against all fallacies in the JSON file. The statement is: "Many people throughout history started revolutions by taking the morally right action when it was considered morally wrong or even illegal at the time. Consider Rosa Parks."
+
+After analyzing all 200+ fallacies, I found several potential matches, but the strongest candidate is:
+
+**Galileo Fallacy** - Let me execute the step-by-step analysis:
+
+1. "Is there a claim or idea being presented?" - **YES** (The claim that taking morally right actions when they're considered wrong/illegal is justified)
+2. "Is this claim being opposed, mocked, forbidden, or persecuted by authorities or the majority?" - **YES** (The statement references actions that were "considered morally wrong or even illegal at the time")
+3. "Does the argument conclude that because the current claim faces opposition like the historical example it must be true or deserves more credibility?" - **YES** (Rosa Parks example is used to validate the general principle)
+4. "Does the reasoning rely primarily on the persecution or opposition itself rather than evidence supporting the claim's merits?" - **YES** (The argument relies on historical persecution rather than independent moral reasoning)
+
+Ground truth comparison: [yes, yes, yes, yes] - **PERFECT MATCH**
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From the Prolog file, I found no direct "often_confused_with" relationships for Galileo Fallacy, so I'll examine other strong candidates from Step 1:
+
+**Appeal to Tradition** (related concept - using historical precedent):
+1. "Does the argument present historical preferences?" - **NO** (It presents historical actions, not preferences)
+- This doesn't match the ground truth pattern [yes, yes, no]
+
+**Appeal to Popularity** (using "many people" language):
+1. "Does the argument use popularity as evidence?" - **NO** (It's about historical significance, not current popularity)
+- This doesn't match the ground truth pattern [yes, yes, yes]
+
+**Hasty Generalization** (generalizing from Rosa Parks example):
+1. "Is there a sample being used as evidence?" - **YES**
+2. "Is the sample size unreasonably small relative to the total population?" - **YES** (One primary example)
+3. "Is the sample unrepresentative of the broader population?" - **UNCLEAR**
+4. "Is a broad conclusion being drawn from this sample?" - **YES**
+5. "Is the conclusion being applied to a much larger population or group?" - **YES**
+6. "Does the generalization ignore relevant statistical data or larger patterns?" - **YES**
+
+This matches 5 out of 6 ground truth requirements [yes, yes, yes, yes, yes, yes], but the third step is ambiguous.
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+**Selected Fallacy: Galileo Fallacy**
+
+**Comprehensive Reasoning:**
+
+1. **Perfect Ground Truth Match**: The Galileo Fallacy analysis resulted in a perfect 4/4 match with the ground truth pattern, while other candidates had weaker matches.
+
+2. **Structural Analysis**: The statement follows the classic Galileo Fallacy structure:
+   - Presents historical figures who were persecuted/opposed
+   - Uses this persecution as evidence for the validity of their actions
+   - Implies that current actions facing similar opposition must also be correct
+   - Rosa Parks serves as the historical parallel to Galileo
+
+3. **Logical Mechanism**: The fallacy works by suggesting that because Rosa Parks (and others) were right despite facing opposition, anyone else facing similar opposition must also be right. This reasoning is flawed because persecution alone doesn't determine moral correctness.
+
+4. **Key Indicator**: The phrase "Consider Rosa Parks" is particularly telling - it's asking the reader to draw a parallel between Rosa Parks' historically vindicated position and whatever current "morally right action" the speaker might be advocating.
+
+5. **Distinction from Other Fallacies**: While the statement has elements that might suggest other fallacies (like using historical examples or generalizing), the core logical error is specifically about using persecution/opposition as validation, which is the defining characteristic of the Galileo Fallacy.
+
+The statement commits the Galileo Fallacy by using Rosa Parks as a historical example of someone who was persecuted but later vindicated, and implicitly arguing that this pattern validates other actions that face similar opposition today.
