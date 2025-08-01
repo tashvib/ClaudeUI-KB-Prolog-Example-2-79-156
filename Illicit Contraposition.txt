@@ -1,0 +1,70 @@
+I'll perform a systematic fallacy analysis following the exact steps specified.
+
+**STEP 1: Systematic Fallacy Analysis with Strategic Processing**
+
+**1.1 Initial Pattern Matching**
+This statement involves logical reasoning with categorical propositions and appears to make an inference about "some" statements. I'll mark logical fallacies related to categorical syllogisms, quantifier issues, and conversion errors as "ANALYZE" and others as "LOW_PRIORITY."
+
+**1.2 Detailed Step Execution for High-Priority Fallacies**
+
+**False Conversion Analysis:**
+1. Does the argument contain a categorical proposition that uses 'all' (A-form) or 'some … not' (O-form)? **NO** - The statement uses "some dogs bark" which is an I-form proposition
+2. Does the conclusion switch the subject and predicate terms of the proposition? **NO** - The conclusion doesn't switch terms from the original
+3. Does the conclusion logically follow from the premise after the swap? **N/A**
+4. Does the argument provide additional valid reasoning that justifies the swap? **N/A**
+
+Ground truth: [yes, yes, no, no] - **NO MATCH**
+
+**Illicit Contraposition Analysis:**
+1. Does the statement contain categorical propositions using 'no'? **NO**
+2. Does the statement contain categorical propositions using 'some'? **YES** - "Some dogs bark"
+3. Are there two related statements presented where the second statement claims to be derived from the first? **YES** - The conclusion claims to follow from the premise
+4. Does the second statement switch the subject and predicate terms from the first? **YES** - Goes from "dogs bark" to "non-barking things are non-dogs"
+5. Are both the subject and predicate terms negated in the second statement? **YES** - "non-barking" and "non-dogs"
+6. Does the argument treat this transformation as logically valid? **YES** - Indicated by "Therefore"
+
+Ground truth: [yes, yes, yes, yes, yes, yes] - **STRONG MATCH**
+
+**Quantifier Shift Fallacy Analysis:**
+1. Does the statement contain two quantifiers (universal and existential)? **NO** - Only "some" is used
+2. Does the original statement have the form 'Every X has a related Y'? **NO**
+3. Does the conclusion claim 'There is some Y related to every X'? **NO**
+4. Is the order of quantifiers reversed between premise and conclusion? **NO**
+5. Does the reversal change the logical meaning inappropriately? **N/A**
+6. Does this reversal lead to an invalid inference? **N/A**
+
+Ground truth: [yes, yes, yes, yes, yes, yes] - **NO MATCH**
+
+**Unwarranted Contrast Analysis:**
+1. Does the argument involve a statement about 'some' members of a group having a particular property? **YES** - "Some dogs bark"
+2. Does the argument then conclude that 'some' members of that same group do NOT have that property? **NO** - The conclusion is about non-barking things being non-dogs
+3. Is this conclusion drawn solely based on the implicature rather than logical implication? **N/A**
+4. Is the contrast being drawn unwarranted because the original statement doesn't logically require the opposite to be true? **N/A**
+
+Ground truth: [yes, yes, yes, yes] - **NO MATCH**
+
+**STEP 2: Related Fallacy Discovery and Analysis**
+
+From the Prolog file, fallacies often confused with Illicit Contraposition:
+- None specifically listed in the provided relationships
+
+**STEP 3: Final Selection and Comprehensive Reasoning**
+
+**Analysis Result:**
+The statement "Some dogs bark. Therefore, some non-barking things are non-dogs" demonstrates **Illicit Contraposition**.
+
+**Reasoning:**
+1. The statement starts with "Some dogs bark" (an I-form categorical proposition)
+2. It attempts to derive "some non-barking things are non-dogs" by:
+   - Switching subject and predicate terms
+   - Negating both terms
+   - Treating this transformation as valid (indicated by "Therefore")
+
+3. This is a classic example of illicit contraposition because:
+   - The original statement uses "some" (making it an I-form proposition)
+   - I-form propositions do not validly convert to their contrapositive in this manner
+   - The inference treats an invalid logical transformation as valid
+
+The transformation from "Some dogs bark" to "Some non-barking things are non-dogs" is logically invalid, making this a clear case of the Illicit Contraposition fallacy.
+
+**Final Answer: Illicit Contraposition**
