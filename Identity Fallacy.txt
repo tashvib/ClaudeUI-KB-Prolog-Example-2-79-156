@@ -1,0 +1,90 @@
+I'll perform a systematic fallacy analysis following the exact instructions provided.
+
+**STEP 1: Systematic Fallacy Analysis with Strategic Processing**
+
+**1.1 Initial Pattern Matching**
+Let me rapidly assess the statement for potential fallacy categories:
+
+The statement describes a workplace meeting scenario with gender-based participation rules. This could potentially relate to fallacies involving:
+- Discrimination/bias reasoning
+- Authority/participation issues
+- Gender-related logical errors
+- Procedural fairness arguments
+
+Most mathematical, formal logic, and unrelated fallacies can be marked as LOW_PRIORITY.
+
+**1.2 Detailed Step Execution for High-Priority Candidates**
+
+Let me analyze the most promising candidates:
+
+**Special Pleading Analysis:**
+- Step 1: "Does the statement apply a standard, principle, or rule to others or general circumstances?" - YES (general principle of equal participation in discussions)
+- Step 2: "Does the same person/source exempt themselves or specific circumstances from that same standard?" - YES (women can contribute, men cannot)
+- Step 3: "Is adequate justification provided for the exemption?" - NO (no justification given in the statement)
+- Step 4: "Does the exemption appear to be self-serving?" - YES (benefits the group making the exemption)
+
+Ground truth: [yes, yes, no, yes] - **PERFECT MATCH (STRONG)**
+
+**Double Standard Analysis:**
+- Step 1: "Are there two or more similar situations being compared?" - YES (men vs women in same meeting)
+- Step 2: "Are both situations similar enough to be judged by the same standard?" - YES (both are employees discussing workplace issues)
+- Step 3: "Are the same standards applied to judge both situations?" - NO (different participation rules)
+- Step 4: "Do the different standards serve to support the person or group's preferred position?" - YES (supports the female staff's position)
+
+Ground truth: [yes, yes, no, yes] - **PERFECT MATCH (STRONG)**
+
+**1.3 Abbreviated Assessment for Low-Priority Fallacies**
+Most other fallacies (mathematical, appeals to authority, straw man, etc.) don't apply to this procedural scenario.
+
+**STEP 2: Related Fallacy Discovery and Analysis**
+
+Checking prolog.pro for fallacies often confused with Special Pleading and Double Standard:
+
+**Special Pleading is often confused with:**
+- base_rate_fallacy
+- blind_authority_fallacy  
+- appeal_to_loyalty
+- appeal_to_pity
+- subjectivist_fallacy
+
+**Double Standard is often confused with:**
+- ad_hominem_tu_quoque
+- two_wrongs_make_a_right
+
+Let me analyze these related fallacies:
+
+**Ad Hominem Tu Quoque Analysis:**
+- Step 1: "Are there two parties - one making an argument/claim and another responding?" - NO (this is about meeting rules, not arguments)
+- This doesn't fit the pattern.
+
+**Two Wrongs Make a Right Analysis:**
+- Step 1: "Are there two parties involved in the statement?" - YES
+- Step 2: "Is one party justifying an action they took or want to take?" - Potentially
+- Step 3: "Is the justification based on the other party having done the same action to them?" - NO (no reciprocal action mentioned)
+- This doesn't match well.
+
+**Appeal to Pity Analysis:**
+- The statement doesn't contain emotional appeals related to pity.
+
+**Base Rate Fallacy Analysis:**
+- No statistical information is being ignored.
+
+**STEP 3: Final Selection and Comprehensive Reasoning**
+
+**Analysis Results Summary:**
+- **Special Pleading**: STRONG match (4/4 steps match ground truth perfectly)
+- **Double Standard**: STRONG match (4/4 steps match ground truth perfectly)
+- **Related fallacies**: No strong matches
+
+**Differentiation Between Special Pleading and Double Standard:**
+
+Both fallacies apply perfectly, but they represent different aspects of the same logical error:
+
+- **Special Pleading** focuses on the exemption from a general rule without adequate justification
+- **Double Standard** focuses on applying different standards to similar situations
+
+In this context, the statement exemplifies **Special Pleading** more precisely because it establishes a general principle (meeting participation) and then creates an exemption for one group without providing justification for why this exemption is warranted.
+
+**Final Classification: Special Pleading**
+
+The female staff establishes different participation rules for men and women in the same meeting context, exempting themselves from the general principle of equal participation without providing adequate justification for this exemption. This represents a classic case of special pleading where a standard rule is applied generally but specific exemptions are made that serve the interests of those making the exemption.
