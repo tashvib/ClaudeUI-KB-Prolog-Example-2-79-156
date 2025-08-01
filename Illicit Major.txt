@@ -1,0 +1,138 @@
+I'll perform the comprehensive fallacy analysis following the exact steps specified.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this statement against the fallacies in the JSON file. The statement is:
+"All Jim Carrey movies are hilarious. No horror movies are Jim Carrey movies. Therefore, no horror movies are hilarious."
+
+This appears to be a categorical syllogism with:
+- Major premise: All Jim Carrey movies are hilarious
+- Minor premise: No horror movies are Jim Carrey movies  
+- Conclusion: Therefore, no horror movies are hilarious
+
+Let me check this against relevant fallacies:
+
+**Fallacy of the Undistributed Middle:**
+- Step 1: Is there a categorical syllogism with two premises and one conclusion? **YES**
+- Step 2: Do both premises link different categories (A and B) to the same middle term (C), and the conclusion links A and B directly? **NO** - This doesn't fit the pattern
+- Step 3: Is there any additional valid reasoning or evidence? **NO**
+Ground truth: [yes, yes, no] - **NO MATCH**
+
+**Exclusive Premises:**
+- Step 1: Is there an argument with a categorical syllogism? **YES**
+- Step 2: Are there exactly two premises that are negative statements? **NO** - Only one premise is negative
+- Step 3: Does the first premise use 'No X are Y' or 'Some X are not Y'? **NO** - First premise is positive
+- Step 4: Does the second premise use 'Some Y are not Z' or 'No Y are Z'? **YES** - "No horror movies are Jim Carrey movies"
+- Step 5: Is a conclusion reached about the relationship between X and Z? **YES**
+Ground truth: [yes, yes, yes, yes, yes] - **NO MATCH**
+
+**Negative Conclusion from Affirmative Premises:**
+- Step 1: Is the argument a categorical syllogism with two premises and one conclusion? **YES**
+- Step 2: Are both premises positive statements? **NO** - Second premise is negative
+- Step 3: Is the conclusion a negative statement? **YES**
+Ground truth: [yes, yes, yes] - **NO MATCH**
+
+Actually, let me reconsider the logical structure. This syllogism is:
+- All A are B (All Jim Carrey movies are hilarious)
+- No C are A (No horror movies are Jim Carrey movies)  
+- Therefore, No C are B (No horror movies are hilarious)
+
+This is actually a **valid** logical form in categorical logic. Let me check if this might be a case where no fallacy is present, or if I need to look at other possibilities.
+
+Wait - let me check **Affirming a Disjunct** and other logical fallacies more carefully...
+
+After systematic analysis, this appears to be a **valid categorical syllogism** following the pattern:
+- All A are B
+- No C are A
+- Therefore, No C are B
+
+This is logically valid reasoning, not a fallacy.
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+Since no clear fallacy was identified in Step 1, let me examine fallacies that might be confused with valid reasoning or involve categorical syllogisms:
+
+From the Prolog file, fallacies often confused with syllogistic reasoning include:
+- Fallacy of the Undistributed Middle
+- Exclusive Premises  
+- Negative Conclusion from Affirmative Premises
+- Illicit Major/Minor
+- Existential Fallacy
+
+I've already analyzed these above and none match.
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+After comprehensive analysis of the statement "All Jim Carrey movies are hilarious. No horror movies are Jim Carrey movies. Therefore, no horror movies are hilarious," I conclude:
+
+**This statement contains NO LOGICAL FALLACY.**
+
+**Reasoning:**
+
+1. **Valid Syllogistic Form**: The argument follows a valid categorical syllogism structure (Barbara syllogism in negative form):
+   - Major premise: All A are B (All Jim Carrey movies are hilarious)
+   - Minor premise: No C are A (No horror movies are Jim Carrey movies)
+   - Conclusion: No C are B (No horror movies are hilarious)
+
+2. **Logical Validity**: The conclusion follows necessarily from the premises. If all Jim Carrey movies are hilarious, and no horror movies are Jim Carrey movies, then logically no horror movies can be hilarious (based on the given premises).
+
+3. **No Fallacy Pattern Match**: After systematic analysis against all relevant fallacies in the instruction set, none of the patterns match this argument structure.
+
+4. **Sound Reasoning**: While the premises might be empirically questionable (there could be hilarious horror movies), the logical structure itself is valid.
+
+**Final Classification: NO FALLACY DETECTED - This is valid categorical reasoning.**
+------------------------------------------------------------------------------------------------
+I'll re-examine the statement more carefully, focusing on finding the best matching fallacy.
+
+## STEP 1: Initial Fallacy Analysis
+
+Let me analyze this categorical syllogism more systematically:
+
+**Statement:** "All Jim Carrey movies are hilarious. No horror movies are Jim Carrey movies. Therefore, no horror movies are hilarious."
+
+**Fallacy of the Undistributed Middle:**
+- Step 1: Is there a categorical syllogism with two premises and one conclusion? **YES**
+- Step 2: Do both premises link different categories (A and B) to the same middle term (C), and the conclusion links A and B directly? **YES** - "Jim Carrey movies" is the middle term linking "hilarious" and "horror movies"
+- Step 3: Is there any additional valid reasoning or evidence (outside the premises) that justifies the conclusion? **NO**
+
+Ground truth: [yes, yes, no] - **PERFECT MATCH**
+
+Wait - let me reconsider the distribution. In "All Jim Carrey movies are hilarious," the middle term "Jim Carrey movies" IS distributed (as the subject of a universal affirmative). In "No horror movies are Jim Carrey movies," the middle term "Jim Carrey movies" IS distributed (as the predicate of a universal negative).
+
+Let me check **Illicit Major**:
+- Step 1: Is the argument a categorical syllogism? **YES**
+- Step 2: Is the major term distributed in the conclusion? **YES** - "hilarious" is distributed in "no horror movies are hilarious"
+- Step 3: Is the major term distributed in the major premise? **NO** - "hilarious" is not distributed in "All Jim Carrey movies are hilarious" (predicate of affirmative statement)
+
+Ground truth: [yes, yes, no] - **PERFECT MATCH**
+
+## STEP 2: Related Fallacy Discovery and Analysis
+
+From prolog.txt, fallacies often confused with Illicit Major:
+- Fallacy of the Undistributed Middle
+- Unwarranted Contrast
+
+**Fallacy of the Undistributed Middle** (already analyzed above - doesn't match due to middle term being distributed)
+
+**Unwarranted Contrast:**
+- Step 1: Does the argument involve a statement about 'some' members of a group? **NO**
+- This doesn't apply to our universal statements.
+
+## STEP 3: Final Selection and Comprehensive Reasoning
+
+**Selected Fallacy: Illicit Major**
+
+**Comprehensive Reasoning:**
+
+1. **Perfect Pattern Match**: The argument commits the Illicit Major fallacy because:
+   - It's a categorical syllogism ✓
+   - The major term "hilarious" is distributed in the conclusion (as predicate of universal negative) ✓  
+   - The major term "hilarious" is NOT distributed in the major premise (as predicate of universal affirmative) ✓
+
+2. **Logical Error**: The fallacy occurs because the conclusion makes a universal claim about "hilarious" (that NO horror movies are hilarious), but the major premise only tells us about the subset of hilarious things that are Jim Carrey movies, not about ALL hilarious things.
+
+3. **Invalid Distribution**: You cannot validly conclude that no horror movies are hilarious just because all Jim Carrey movies are hilarious and no horror movies are Jim Carrey movies. There could be other sources of hilarity besides Jim Carrey movies.
+
+4. **Ground Truth Alignment**: All steps match the ground truth pattern [yes, yes, no] exactly.
+
+**Final Classification: Illicit Major**
