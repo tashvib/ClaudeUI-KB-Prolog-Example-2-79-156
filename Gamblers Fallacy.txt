@@ -1,0 +1,80 @@
+I'll perform a systematic fallacy analysis following the exact instructions provided.
+
+**STEP 1: Systematic Fallacy Analysis with Strategic Processing**
+
+Let me process the statement: Eric chooses seemingly random lottery numbers while Steve chooses consecutive numbers 1-6. Eric calls Steve an "idiot" claiming those numbers "will never come up."
+
+**1.1 Initial Pattern Matching**
+This appears to involve probability misconceptions, so I'll mark probability-related fallacies as "ANALYZE" and others as "LOW_PRIORITY" where clearly irrelevant.
+
+**1.2 Detailed Step Execution for High-Priority Candidates**
+
+**Gamblers Fallacy Analysis:**
+- Step 1: "Does the situation involve pure random chance or independent events?" → YES (lottery numbers)
+- Step 2: "Are previous outcomes being referenced?" → NO (no mention of past draws)
+- Step 3: "Does the argument claim that past results influence future probabilities?" → NO
+- Step 4: "Does the logic incorrectly assume dependence between independent random events?" → NO
+Ground truth: [yes, yes, yes, yes] → My results: [yes, no, no, no] = WEAK match
+
+**Hot Hand Fallacy Analysis:**
+- Step 1: "Does the statement involve a sequence of wins or losses in chance-based games or events?" → NO
+- Step 2: "Does the statement attribute the streak to the person being 'hot' or 'cold'?" → NO
+- Step 3: "Does the statement predict future outcomes based on current streak?" → NO
+- Step 4: "Are the underlying events based on chance rather than skill?" → YES
+- Step 5: "Does the reasoning ignore independence of probability events?" → YES
+Ground truth: [yes, yes, yes, yes, yes] → My results: [no, no, no, yes, yes] = WEAK match
+
+**Appeal to Intuition Analysis:**
+- Step 1: "Does the argument rely primarily on intuition or gut feeling?" → YES (Eric's intuitive belief about number patterns)
+- Step 2: "Does the person provide logical reasons for their position?" → NO (no mathematical justification)
+- Step 3: "Is the conclusion based on intuitive feelings rather than reasoned analysis?" → YES
+Ground truth: [yes, no, yes] → My results: [yes, no, yes] = STRONG match
+
+**Magical Thinking Analysis:**
+- Step 1: "Does the statement claim a causal connection between two events?" → YES (number pattern → probability of winning)
+- Step 2: "Is the connection based on logic or evidence?" → NO
+- Step 3: "Is the connection based on superstition or magic?" → YES (belief that consecutive numbers are "unlucky")
+- Step 4: "Is the claimed relationship supported by factual foundation?" → NO
+Ground truth: [yes, no, yes, no] → My results: [yes, no, yes, no] = STRONG match
+
+**STEP 2: Related Fallacy Discovery and Analysis**
+
+From prolog.pro, I find fallacies often confused with my strong candidates:
+
+**Often confused with Appeal to Intuition:**
+- Argument from Ignorance
+- Argument from Incredulity  
+- Wishful Thinking
+- Appeal to Emotion
+
+**Often confused with Magical Thinking:**
+- Negating Antecedent and Consequent
+- Pragmatic Fallacy
+
+**Analyzing Related Fallacies:**
+
+**Argument from Ignorance Analysis:**
+- Step 1: "Is a person making a claim about something being true or false?" → YES
+- Step 2: "Is the claim solely reliant on fact that there is no evidence against it?" → NO (Eric claims evidence FOR his position)
+- Step 3: "Is the claim supported by substantial logical evidence?" → NO
+Ground truth: [yes, yes, no] → My results: [yes, no, no] = MODERATE match
+
+**Wishful Thinking Analysis:**
+- Step 1: "Does the argument contain a desired outcome or wish?" → YES (Eric wants his numbers to be better)
+- Step 2: "Is this desire being used as evidence or justification?" → YES
+- Step 3: "Is actual supporting evidence absent or inadequate?" → YES  
+- Step 4: "Does the conclusion rely primarily on wanting it to be true?" → YES
+Ground truth: [yes, yes, yes, yes] → My results: [yes, yes, yes, yes] = STRONG match
+
+**STEP 3: Final Selection and Comprehensive Reasoning**
+
+**Comparison of Strong Matches:**
+1. **Appeal to Intuition** - STRONG match, captures Eric's gut-feeling approach
+2. **Magical Thinking** - STRONG match, captures the superstitious belief about number patterns  
+3. **Wishful Thinking** - STRONG match, captures Eric's desire for his numbers to be superior
+
+**Final Selection: Magical Thinking**
+
+**Reasoning:** While all three have strong matches, **Magical Thinking** best captures the core logical error. Eric believes there's a causal relationship between the visual pattern of numbers (consecutive vs. scattered) and their probability of being drawn, despite lottery numbers being purely random. This superstitious belief that certain number patterns are inherently "unlucky" or less likely to occur represents the essence of magical thinking - attributing causal power to superficial patterns without logical foundation.
+
+The other candidates, while relevant, are secondary: Appeal to Intuition describes his method, and Wishful Thinking describes his motivation, but Magical Thinking identifies the fundamental logical error in his reasoning about probability.
